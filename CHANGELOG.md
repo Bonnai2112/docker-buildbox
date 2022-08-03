@@ -1,6 +1,11 @@
 Versions
 ========
 
+2022-09-31
+----------
+* Bitcoind : Updating to bitcoind to 23.0
+* Bitcoind : Build arm64 image
+
 2022-08-31
 ----------
 
@@ -11,7 +16,6 @@ Versions
 * Golang: adding new 1.19 flavor
 * Java: upgrade Java 11 to 11.0.16 and 17 to 17.0.4
 * Platformsh: updating base image, and CLI to the latest 3.81.x
-
 2022-07-31
 ----------
 
@@ -22,8 +26,7 @@ Versions
 * Python SRC Config : Add linux/amd64 and linux/arm64 as values for the new config property base_platforms
 * CI : use docker/setup-qemu-action@v2 and docker/setup-buildx-action@v1 as gitflows step actions
 * Images : Only [OCI images](https://github.com/opencontainers/image-spec/blob/main/spec.md) for amd64 architecture are built
-* Bitcoind : Updating to bitcoind to 23.0
-* Bitcoind : Build arm64 image
+
 
 
 2022-06-30

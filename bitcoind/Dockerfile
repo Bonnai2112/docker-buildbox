@@ -16,7 +16,7 @@ FROM builder-$TARGETARCH as builderTarget
 # install prereq tools
 RUN set -ex \
 	&& apt-get update \
-	&& apt-get install -qq --no-install-recommends ca-certificates dirmngr wget
+	&& apt-get install -y -qq --no-install-recommends ca-certificates dirmngr wget
 # install bitcoin binaries
 RUN set -ex \
 	&& cd /tmp \
